@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<title style="color:purple">entered into css<title>
+</head>
+<body>
+<p>css has 3 types of stylesheets</p>
+<ul style="color:red; font-size:4px">
+<li>Inline<li>
+<li>Internal<li>
+<li>External<li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>entered into css</title>
+
+<style>
+p::selection{
+background:yellow;
+color:black;
+}
+</style>
+</head>
+<body>
+<h1 style="color:red;">inline style sheets</h1>
+<p style="color:purple;">css has 3 types of stylesheets</p>
+<ul style="color:red; font-size:20px">
+<li>Inline</li>
+<li>Internal</li>
+<li>External</li>
+</ul>
+<br>
+<h1 id="two">internal css</h1>
+<p id="three">internal css applies the styles in the selectors wise in the separate section of style tag in the head tag.</p>
+<p id="one">css file practicing with internal stylesheets. </p>
+<br>
+<h1>external css</h1>
+<p>external css applies the styles which is mentioned in the separate .html file </p>
+
+<br>
+<h2>combinator selectors</h2>
+<p>combinator selector has 4 types</p>
+<h2>
+<p>child selector</p>
+</h2>
+<p>descendant selector</p>
+<p>adjacent sibling selector</p>
+<p>general sibling selector</p>
+
+<h3>adjacent</h3>
+<p>adjacent sibling selector</p>
+<p>general sibling selector</p>
+
+<br>
+<h3>psuedo element selector<h3>
+
+<p>Pseudo-elements are incredibly useful for adding decorative elements, creating unique text effects, and styling specific parts of elements without the need for additional HTML markup. They provide a lot of flexibility and control over the appearance of a webpage's content.</p>
+</body>
+</html>
+
+
+
+
