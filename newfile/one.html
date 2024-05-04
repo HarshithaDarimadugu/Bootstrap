@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        // $(document).ready(function(){
+        //     $("#start").click(function(){
+        //         $(".list").append("<li>dragon fruit</li>")
+        //         $(".list").prepend("<li>mangoes</li>")
+        //         $(".list").after("hey these are fruits...")
+        //         $(".list").before("hello boss. what are those?")
+                
+        //     });
+           
+        // });
+    function start() {
+        var txt1 = "<b>hi</b>";
+        var txt2 = $("<b></b>").text("hello");
+        var txt3 = document.createElement("b");
+        txt3.innerHTML = " good evening..";
+        $(".list").after(txt1, txt2, txt3);
+
+    } 
+
+
+    </script>
+    <!-- <style>
+        .a{
+            background-color:black;
+            color:white;
+            border: 2px solid red;
+            padding: 50px;
+            width:200px;
+            height:100px;
+            text-align: center;
+        }
+    </style> -->
+</head>
+<body>
+    <button onclick="start()">start</button>
+    <button id="stop">stop</button>
+    <p>hi buddy!</p>
+    <div class="abc" >
+        <p class="a" id="1">hi i am harshitha </p>
+        <input type="text" name="t" id="t" value="krishna">
+        <p class="b" id="2">hi hello</p>
+        <span>this is me </span>
+    </div>
+    <div class="c" id="ramesh">
+        <p class="d" id="ramki">good afternoon</p>
+    </div>
+    <p class="p" id="ram">why this happen to me?</p>
+    <button onclick="button">click me</button>
+   
+    <h3 class="c" id="head">bye buddy...</h3>
+
+    <ul class="list">
+        <li>apple</li>
+        <li>Banana</li>
+        <li>citrus fruit</li>
+    </ul>
+    
+</body>
+</html>
+
+
+

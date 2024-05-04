@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- <script>
+           $(document).ready(function(){
+                $("#op").click(function(){
+                    $(".start").animate({left:'200px',height:'50px',width:'150px'},5000);
+                });
+           });
+    </script> -->
+    <!-- <style>
+        /* #first{
+            display: none;
+        } */
+        .start{
+            background-color: coral;
+            color: black;
+            width: 250px;
+            height: 100px;
+            padding: 3px;
+            text-align: justify;
+        }
+
+    </style> -->
+    <!-- <script>
+        $(document).ready(function(){
+            $("#text").click(function(){
+                alert("text is : "+ $("#a").text());
+            });
+            $("#html").click(function(){
+                alert("html is : "+ $("#a").html());
+            });
+            $("#value").click(function(){
+                alert("value is : "+ $("#b").val());
+            });
+            $("#href").click(function(){
+                alert("link is : "+ $("#c").attr("href"));
+            });
+            
+        });
+    </script> -->
+    <!-- <script>
+        $(document).ready(function(){
+            $("#a").click(function(){
+                $("#b").text("this is new text bro...")
+            });
+            $("#c").click(function(){
+                $("#d").attr("href","https://www.youtube.com")
+            });
+
+        });
+    </script> -->
+    <!-- <script>
+        $(document).ready(function(){
+            $("#l").click(function(){
+                $("#ol").append("<li>three</li>");
+            });
+            $("#j").click(function(){
+                $("#o").prepend("<li>zero</li>");
+            });
+            $("#a").click(function(){
+                $("#after").after("four");
+            });
+            $("#b").click(function(){
+                $("#before").before("five");
+            });
+        });
+    </script> -->
+    <!-- <script>
+        $(document).ready(function(){
+           $("#c").click(function(){
+                $("b").append("<option>" +$("#a").val()+ "</option>");
+            });
+        });
+    </script> -->
+    <script>
+        var myOptions = {
+            val1 : 'Blue',
+            val2 : 'Orange'
+        };
+        var mySelect = $('#myColors');
+        $.each(myOptions, function(val, text) {
+            mySelect.append(
+                $('<option></option>').val(val).html(text)
+            );
+        });
+    
+    </script>
+   
+
+
+
+
+
+
+
+</head>
+<body>
+<!-- car model: <input type="text" name="car" id="a">
+all cars:
+<select name="select" id="b">
+    <option value="">select</option>
+</select>
+<input type="button" id="c" value="add new car"> -->
+
+
+<p>List of Colors :</p>
+<select id='myColors'>
+<option value="Red">Red</option>
+<option value="Green">Green</option>
+<option value="White">White</option>
+ <option value="Black">Black</option>
+ </select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <button id="but">open</button>
+    <p id="first">jquery practising by the help of google</p> -->
+    <!-- <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tenetur quam est illum dolores voluptas recusandae modi, accusantium distinctio omnis ullam porro nemo, libero dolorum, quaerat nostrum tempore voluptatum voluptatem.</p> -->
+        <!-- <button id="op">open</button>
+        <br>
+        <br>
+    <div class="start">
+            hi hello welcome to jquery practice session.
+        </div> -->
+
+    <!-- <button id="text">open text</button>
+    <button id="html">open html</button>
+    <button id="value">open value</button>
+    <button id="href">open href</button>
+    <p id="a">this is the paragraph of which is written in <b>HTML</b> file</p>
+    <input id="b"  type="text" value="baby doll">
+    <p><a href="https://www.google.com" id="c">google</a>link</p> -->
+<!-- 
+    <button id="a">set text</button>
+    <p id="b">this is old text</p>
+    <button id="c">set href</button>
+    <p><a href="https://www.google.com" id="d">google</a></p> -->
+
+<!-- <button id="l">append list item</button>
+<ol id="ol">
+    <li>one</li>
+    <li>two</li>
+</ol>
+<button id="j">prepend list item</button>
+<ol id="o">
+    <li>one</li>
+    <li>two</li>
+</ol>
+<button id="a">insert after</button>
+<ol id="after">
+    <li>one</li>
+    <li>two</li>
+</ol>
+<button id="b">insert before</button>
+<ol id="before">
+    <li>one</li>
+    <li>two</li>
+</ol> -->
+</body>
+</html>
